@@ -3,13 +3,13 @@ def tic_tac_toe():
 
     def table():
         print("        |       |     ")
-        print("   ", a[1], " | ", a[2], " | ", a[3])
+        print("   ", a[1], "  |  ", a[2], "  |  ", a[3])
         print("________|_______|_______")
         print("        |       |     ")
-        print("   ", a[4], " | ", a[5], " | ", a[6])
+        print("   ", a[4], "  |  ", a[5], "  |  ", a[6])
         print("________|_______|_______")
         print("        |       |     ")
-        print("   ", a[7], " | ", a[8], " | ", a[9])
+        print("   ", a[7], "  |  ", a[8], "  |  ", a[9])
         print("        |       |     ")
 
     def X1():
@@ -112,3 +112,4 @@ def tic_tac_toe():
 
 
 tic_tac_toe()
+#random
