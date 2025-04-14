@@ -21,61 +21,6 @@ def tic_tac_toe():
             else:
                 print("Invalid Entry, try again!")
             table()
-    def X1():
-        b = input("Player 1 Choose Square: ")
-        if b == "1": a[1] = "X"
-        elif b == "2": a[2] = "X"
-        elif b == "3": a[3] = "X"
-        elif b == "4": a[4] = "X"
-        elif b == "5": a[5] = "X"
-        elif b == "6": a[6] = "X"
-        elif b == "7": a[7] = "X"
-        elif b == "8": a[8] = "X"
-        elif b == "9": a[9] = "X"
-        else: print("INVALID ENTRY, enter number: ")
-        table()
-
-    def X2():
-        b = input("Player 2 Choose Square: ")
-        if b == "1": a[1] = "X"
-        elif b == "2": a[2] = "X"
-        elif b == "3": a[3] = "X"
-        elif b == "4": a[4] = "X"
-        elif b == "5": a[5] = "X"
-        elif b == "6": a[6] = "X"
-        elif b == "7": a[7] = "X"
-        elif b == "8": a[8] = "X"
-        elif b == "9": a[9] = "X"
-        else: print("INVALID ENTRY, enter number: ")
-        table()
-
-    def O1():
-        b = input("Player 1 Choose Square: ")
-        if b == "1": a[1] = "O"
-        elif b == "2": a[2] = "O"
-        elif b == "3": a[3] = "O"
-        elif b == "4": a[4] = "O"
-        elif b == "5": a[5] = "O"
-        elif b == "6": a[6] = "O"
-        elif b == "7": a[7] = "O"
-        elif b == "8": a[8] = "O"
-        elif b == "9": a[9] = "O"
-        else: print("INVALID ENTRY, enter number: ")
-        table()
-
-    def O2():
-        b = input("Player 2 Choose Square: ")
-        if b == "1": a[1] = "O"
-        elif b == "2": a[2] = "O"
-        elif b == "3": a[3] = "O"
-        elif b == "4": a[4] = "O"
-        elif b == "5": a[5] = "O"
-        elif b == "6": a[6] = "O"
-        elif b == "7": a[7] = "O"
-        elif b == "8": a[8] = "O"
-        elif b == "9": a[9] = "O"
-        else: print("INVALID ENTRY, enter number: ")
-        table()
 
     table()
     while True:
