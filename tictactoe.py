@@ -20,8 +20,13 @@ def tic_tac_toe():
                 break
             else:
                 print("Invalid Entry, try again!")
-            table()
-
+        table()
+    def check_winner():
+        combos = [
+            (1,2,3),(4,5,6),(7,8,9),(1,4,7),(2,5,8),(3,6,9),(1,5,9),(3,5,7)]
+        if x,y,z in combos:
+            return True
+        return False
     table()
     while True:
         p1 = input("player 1 choose: 1 for X or 2 for 0: ")
@@ -32,6 +37,7 @@ def tic_tac_toe():
             break
         else:
             print("INVALID ENTRY, Choose 1 or 2")
+
 
     def mark1(p1):
         while True:
