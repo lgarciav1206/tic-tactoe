@@ -1,4 +1,4 @@
-#sprint 1
+#sprint 1:
 Project idea submitted in D2L
 - [x] Project idea added to Teams spreadsheet and marked as "Go"
 - [x] GitHub account created and joined `ksu-is` organization
@@ -9,6 +9,31 @@ Project idea submitted in D2L
 - [x] Start developing core functionality
 - [x] README.md created and committed
 - [x] project_roadmap.md created with task assignments
+
+#Sprint 2:
+Made minor updates and commit messages in the repository
+
+6 code changes from Lenny
+- [ ] 1.
+- [ ] 2.
+- [ ] 3.
+- [ ] 4. 
+- [ ] 5. 
+- [ ] 6.
+- [ ] Each commit has a comment explaining what was done
+- [ ] Submitted quiz
+
+6 code changes from Lizbeth
+- [ ] 1.
+- [ ] 2.
+- [ ] 3.
+- [ ] 4. 
+- [ ] 5. 
+- [ ] 6.
+- [ ] Each commit has a comment explaining what was done
+- [ ] Submitted quiz
+
+
 
 URL: https://github.com/ksu-is/TicTacToe.-Project/tree/main
 
