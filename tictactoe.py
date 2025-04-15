@@ -43,6 +43,19 @@ def tic_tac_toe():
     turn = 1
 
     while True:
+        if turn % 2 != 0:
+            place_mark("Player 1", player1_mark)
+            if check_winner():
+                print("PLAYER 1 WINS!!")
+                break
+        else:
+            place_mark("Player 2", player2_mark)
+            if check_winner():
+                print("PLAYER 2 WINS!!")
+                break
+        if all(str(cell) not in "123456789" for cell in a[1:]):
+            print("It's a DRAW?")
+        turn += 1
 
     restart = input("Do you want to play again, choose Yes or No: ")
     if restart == "yes" or restart == "Yes":
