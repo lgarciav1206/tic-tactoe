@@ -38,25 +38,11 @@ def tic_tac_toe():
         else:
             print("INVALID ENTRY, Choose 1 or 2")
 
+    player1_mark = "X" if p1 == "1" else "0"
+    player2_mark = "O" if player1_mark == "X" else "X"
+    turn = 1
 
-    def mark1(p1):
-        while True:
-            mark = "X" if p1 == "1" else "0"
-            place_mark("Player 1", mark)
-            if a[1] == a[2] == a[3] or a[1] == a[4] == a[7] or a[1] == a[5] == a[9] or a[5] == a[2] == a[8] or a[3] == a[5] == a[7] or a[3] == a[6] == a[9] or a[4] == a[5] == a[6]:
-                print("PLAYER 1 WIN'S!!")
-                break
-
-    def mark2(p2):
-        while True:
-            mark = "X" if p2 == "1" else "0"
-            place_mark("Player 2", mark)
-            if a[1] == a[2] == a[3] or a[1] == a[4] == a[7] or a[1] == a[5] == a[9] or a[5] == a[2] == a[8] or a[3] == a[5] == a[7] or a[3] == a[6] == a[9] or a[4] == a[5] == a[6]:
-                print("PLAYER 2 WIN'S!!")
-                break
-
-    mark1(p1)
-    mark2(p2)
+    while True:
 
     restart = input("Do you want to play again, choose Yes or No: ")
     if restart == "yes" or restart == "Yes":
