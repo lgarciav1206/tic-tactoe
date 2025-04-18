@@ -3,7 +3,7 @@ def tic_tac_toe():
 
     def table():
         print("        |       |     ")
-        print("   ", a[1], "  |  ", a[2], "  |  ", a[3])
+        print("   " + str(a[1]) + "  |  " + str([2]) + "  |  " + str(a[3])
         print("________|_______|_______")
         print("        |       |     ")
         print("   ", a[4], "  |  ", a[5], "  |  ", a[6])
