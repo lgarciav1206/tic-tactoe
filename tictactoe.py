@@ -1,16 +1,18 @@
 Print("Welcome to Tic Tac Toe!")
 def tic_tac_toe():
     a = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-
+    p1_wins = 0
+    p2_wins = 0
+    
     def table():
         print("        |       |     ")
         print("   " + str(a[1]) + "  |  " + str([2]) + "  |  " + str(a[3])
         print("________|_______|_______")
         print("        |       |     ")
-        print("   ", a[4], "  |  ", a[5], "  |  ", a[6])
+        print("   " + str(a[4]) + "  |  " + str(a[5]) + "  |  " + str(a[6])
         print("________|_______|_______")
         print("        |       |     ")
-        print("   ", a[7], "  |  ", a[8], "  |  ", a[9])
+        print("   " + str(a[7]) + "  |  " + str(a[8]) + "  |  " + str(a[9])
         print("        |       |     ")
 
     def place_mark(player, mark):
